@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# Math-Magicians
 
 > This is a simple html page which is contains a Math calculator. I have used React, HTML, CSS and Javascript(ES6) for this project and you can use it in your local machin just by cloning this repo.
 
