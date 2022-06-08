@@ -23,6 +23,8 @@ body {
 
 .displayNum::placeholder {
   color: #eee;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .calculatorButtons {
@@ -46,6 +48,7 @@ button:hover {
 
 .color-first {
   color: #eee;
+  font-weight: bold;
 }
 
 .color-second {
