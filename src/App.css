@@ -40,7 +40,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  border:rgb(10, 166, 161) 1px solid;
+  border: rgb(10, 166, 161) 1px solid;
   border-radius: 5%;
 }
 

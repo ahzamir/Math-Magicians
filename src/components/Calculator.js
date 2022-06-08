@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
 
+// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   render() {
     return (
-      <div className="calculator-div" >
+      <div className="calculator-div">
         <input className="displayNum" type="text" id="result" placeholder="0" disabled />
         <div className="calculatorButtons">
           <button className="color-first" type="submit">AC</button>
@@ -27,7 +28,7 @@ class Calculator extends React.Component {
           <button className="color-first" type="submit">=</button>
         </div>
       </div>
-    )
+    );
   }
 }
 
