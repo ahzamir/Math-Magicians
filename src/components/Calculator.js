@@ -19,19 +19,6 @@ class Calculator extends React.Component {
     }, buttonName));
   };
 
-  result = () => {
-    const { total, operation, next } = this.state;
-    return (
-      <p>
-        {total}
-        {' '}
-        {operation}
-        {' '}
-        {next}
-      </p>
-    );
-  }
-
   render() {
     return (
       <div className="calculator-div">
