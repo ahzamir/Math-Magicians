@@ -6,6 +6,7 @@
 
 body {
   padding: 1rem;
+  background-color: #eee;
 }
 
 .calculator-div {
@@ -25,6 +26,7 @@ body {
   text-align: end;
   background-color: rgb(10, 166, 161);
   color: #eee;
+  border: #2b2d41 2px solid;
   border-radius: 0.5rem 0.5rem 0 0;
   height: 4rem;
 }
@@ -33,7 +35,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: #2b2d41;
-  padding: 0.3rem;
+  padding: 0.2rem;
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
