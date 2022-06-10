@@ -8,6 +8,13 @@ const Calculator = () => {
     operation: null,
   });
 
+  const onClickHandler = (e) => {
+    const buttonName = e.target.innerText;
+    setState(calculate({
+      ...state,
+    }, buttonName));
+  };
+
   return (
     <div className="calculator-div">
       <div className="displayNum" id="result">{result}</div>
