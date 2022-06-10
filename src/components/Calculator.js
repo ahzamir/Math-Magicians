@@ -15,6 +15,17 @@ const Calculator = () => {
     }, buttonName));
   };
 
+  const { total, operation, next } = state;
+
+  const result = (
+    <p>
+      {total}
+      {' '}
+      {operation}
+      {' '}
+      {next}
+    </p>
+  );
   return (
     <div className="calculator-div">
       <div className="displayNum" id="result">{result}</div>
