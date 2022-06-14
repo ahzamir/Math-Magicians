@@ -64,3 +64,8 @@ button:hover {
 .zero {
   grid-column: 1 / 3;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
