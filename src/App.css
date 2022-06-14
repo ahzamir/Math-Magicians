@@ -12,7 +12,7 @@ body {
 .border {
   border: rgb(10, 166, 161) 3px solid;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 .calculator-div {
@@ -75,6 +75,8 @@ button:hover {
 }
 
 .navBar h1 {
+  display: flex;
+  align-items: center;
   font-size: 2rem;
   font-weight: bold;
   color: #2b2d41;
@@ -82,11 +84,13 @@ button:hover {
 
 .navBar ul {
   display: flex;
+  flex-direction: column;
   list-style-type: none;
 }
 
 .active-link {
-  margin-left: 0.3rem;
+  display: flex;
+  margin-bottom: 0.3rem;
   background-color: #2b2d41;
   color: #eee;
 }
@@ -99,8 +103,8 @@ button:hover {
 }
 
 .calculatorPage {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 
 .homePageParagraph {
@@ -110,4 +114,23 @@ button:hover {
 .quote {
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .calculatorPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .border {
+    padding: 1rem;
+  }
+
+  .navBar ul {
+    flex-direction: row;
+  }
+
+  .active-link {
+    margin-left: 0.3rem;
+  }
 }

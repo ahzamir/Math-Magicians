@@ -1,9 +1,10 @@
 import React from 'react';
 
 const HomePage = () => (
-  <div className='border'>
-    <h2 className='headerText'>Welcome to our page!</h2>
-    <p className='homePageParagraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <div className="border">
+    <h2 className="headerText">Welcome to our page!</h2>
+    <p className="homePageParagraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Nunc luctus magna in tellus convallis pellentesque.
       Curabitur felis est, convallis at ipsum sit amet, placerat ultricies justo.
       In purus urna, vehicula nec consectetur a, eleifend ut eros.
@@ -15,7 +16,8 @@ const HomePage = () => (
       Nulla eros lacus, commodo in molestie ut, dapibus non orci.
       Aenean placerat ex congue, fermentum nisi porttitor, vehicula nunc.
       Quisque ac commodo augue.
-      Morbi posuere mi nec leo sollicitudin, et commodo tortor ultricies.</p>
+      Morbi posuere mi nec leo sollicitudin, et commodo tortor ultricies.
+    </p>
   </div>
 );
 

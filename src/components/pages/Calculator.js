@@ -27,8 +27,8 @@ const Calculator = () => {
     </p>
   );
   return (
-    <div className='border calculatorPage'>
-      <h2 className='headerText'>Lets do some math!</h2>
+    <div className="border calculatorPage">
+      <h2 className="headerText">Lets do some math!</h2>
       <div className="calculator-div border">
         <div className="displayNum" id="result">{result}</div>
         <div className="calculatorButtons">
