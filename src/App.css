@@ -9,13 +9,16 @@ body {
   background-color: #eee;
 }
 
+.border {
+  border: rgb(10, 166, 161) 3px solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
 .calculator-div {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: rgb(10, 166, 161) 2px solid;
-  border-radius: 1rem;
-  padding: 0.7rem;
 }
 
 .displayNum {
@@ -68,6 +71,13 @@ button:hover {
 .navBar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.navBar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2b2d41;
 }
 
 .navBar ul {
@@ -76,10 +86,28 @@ button:hover {
 }
 
 .active-link {
-  padding: 0.5rem;
   margin-left: 0.3rem;
-  border: rgb(10, 166, 161) 1px solid;
-  border-radius: 0.5rem;
   background-color: #2b2d41;
   color: #eee;
+}
+
+.headerText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2b2d41;
+  margin-bottom: 1rem;
+}
+
+.calculatorPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homePageParagraph {
+  font-size: 1rem;
+}
+
+.quote {
+  font-size: 2rem;
+  font-weight: bold;
 }

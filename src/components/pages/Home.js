@@ -1,9 +1,9 @@
 import React from 'react';
 
 const HomePage = () => (
-  <div className='homePageContents'>
-    <h2>Welcome to our page!</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <div className='border'>
+    <h2 className='headerText'>Welcome to our page!</h2>
+    <p className='homePageParagraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Nunc luctus magna in tellus convallis pellentesque.
       Curabitur felis est, convallis at ipsum sit amet, placerat ultricies justo.
       In purus urna, vehicula nec consectetur a, eleifend ut eros.
