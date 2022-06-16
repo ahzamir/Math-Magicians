@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
-import Calculator from "../pages/Calculator";
+import Calculator from '../pages/Calculator';
 
 describe('Calculator Page testing', () => {
   render(<Calculator />);
