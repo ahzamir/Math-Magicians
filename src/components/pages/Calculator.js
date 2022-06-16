@@ -27,7 +27,7 @@ const Calculator = () => {
     </p>
   );
   return (
-    <div className="border calculatorPage">
+    <div className="border calculatorPage" data-testid="calculatorPageContent">
       <h2 className="headerText">Lets do some math!</h2>
       <div className="calculator-div border">
         <div className="displayNum" id="result">{result}</div>

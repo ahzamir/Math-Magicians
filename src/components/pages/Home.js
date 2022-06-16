@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HomePage = () => (
-  <div className="border">
+  <div data-testid="homePageContent" className="border">
     <h2 className="headerText">Welcome to our page!</h2>
     <p className="homePageParagraph">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
