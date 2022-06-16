@@ -7,7 +7,7 @@
 
 ## 🖥️ Live Demo
 
-[Math-Magicians](https://ahzamir.github.io/Leaderboard/)
+[Math-Magicians-Netlify](https://62ab3f1807095e1efe36b2cd--quiet-gumdrop-092633.netlify.app/)
 
 ## Built With
 
