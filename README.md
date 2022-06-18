@@ -21,7 +21,7 @@ This project built with the help of HTML, CSS, React, and JavaScript you can see
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
